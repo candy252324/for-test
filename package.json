@@ -1,12 +1,17 @@
 {
   "name": "for-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "用于做各种测试的仓库",
+  "type": "module",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "bumpp && npm publish"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "bumpp": "^9.7.1"
+  }
 }
