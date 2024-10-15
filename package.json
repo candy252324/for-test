@@ -1,6 +1,6 @@
 {
   "name": "for-test",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "用于做各种测试的仓库",
   "type": "module",
   "main": "test.js",
